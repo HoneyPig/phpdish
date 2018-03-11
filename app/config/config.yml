@@ -299,3 +299,12 @@ sylius_theme:
     context: phpdish.theme.context.generic
     sources:
         filesystem: ~
+
+
+## discuz 迁移
+phpdish_discuz:
+    database:
+        host: 127.0.0.1
+        name: discuz
+        user: root
+        password: taosikai
