@@ -1,4 +1,5 @@
 services:
-#    php_dish_discuz_migration.example:
-#        class: PHPDish\Bundle\DiscuzMigrationPlugin\Example
-#        arguments: ["@service_id", "plain_value", "%parameter%"]
+   # Discuz 的密码加密方式
+   phpdish.discuz.security.password_cncoder:
+       class: PHPDish\DiscuzMigrationPlugin\Security\DiscuzPasswordEncoder
+       public: false
